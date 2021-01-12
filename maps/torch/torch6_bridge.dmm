@@ -6657,7 +6657,7 @@
 "ol" = (
 /obj/machinery/door/airlock/sol{
 	id_tag = "smcsea_foredoor";
-	name = "SMC Senior Enlisted Advisor"
+	name = "Solarian Marine Corps Attache Room"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
