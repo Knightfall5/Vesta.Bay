@@ -351,7 +351,7 @@
 	pda_type = /obj/item/modular_computer/pda/heads
 
 /decl/hierarchy/outfit/job/torch/crew/command/sea/marine
-	name = OUTFIT_JOB_NAME("Senior Enlisted Advisor - Marine")
+	name = OUTFIT_JOB_NAME("Marine Attache")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	shoes = /obj/item/clothing/shoes/dutyboots
 	l_ear = /obj/item/device/radio/headset/sea
