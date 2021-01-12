@@ -290,11 +290,11 @@ var/const/INF               =(1<<11)
 	return "You are the Senior Enlisted Advisor. You are the highest enlisted person on the ship. You are directly subordinate to the CO. You advise them on enlisted concerns and provide expertise and advice to officers. You are responsible for ensuring discipline and good conduct among enlisted, as well as notifying officers of any issues and \"advising\" them on mistakes they make. You also handle various duties on behalf of the CO and XO. You are an experienced enlisted person, very likely equal only in experience to the CO and XO. You know the regulations better than anyone."
 
 /datum/job/sea/marine
-	title = "SMC Senior Enlisted Advisor"
+	title = "SMC Attache"
 	department = "Support"
 	department_flag = SPT
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/marine
-	minimum_character_age = list(SPECIES_HUMAN = 35,SPECIES_UNATHI = 35,SPECIES_SERGAL = 35, SPECIES_SKRELL = 35, SPECIES_PROMETHEAN = 35, SPECIES_YEOSA = 35, SPECIES_VASS = 35, SPECIES_TAJ = 35, SPECIES_CUSTOM = 35, SPECIES_AKULA = 35)
+	minimum_character_age = list(SPECIES_HUMAN = 26,SPECIES_UNATHI = 26,SPECIES_SERGAL = 26, SPECIES_SKRELL = 26, SPECIES_PROMETHEAN = 26, SPECIES_YEOSA = 26, SPECIES_VASS = 26, SPECIES_TAJ = 26, SPECIES_CUSTOM = 26, SPECIES_AKULA = 26)
 	allowed_branches = list(
 		/datum/mil_branch/marine_corps
 	)
@@ -302,6 +302,9 @@ var/const/INF               =(1<<11)
 		/datum/mil_rank/marine_corps/e8_alt,
 		/datum/mil_rank/marine_corps/e9,
 		/datum/mil_rank/marine_corps/e9_alt
+		/datum/mil_rank/marine_corps/o2,
+		/datum/mil_rank/marine_corps/o3,
+		/datum/mil_rank/marine_corps/o4
 	)
 
 //## RESEARCH ROBOTICIST
