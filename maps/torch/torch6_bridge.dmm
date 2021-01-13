@@ -6657,7 +6657,7 @@
 "ol" = (
 /obj/machinery/door/airlock/sol{
 	id_tag = "smcsea_foredoor";
-	name = "Solarian Marine Corps Attache Room"
+	name = "Solarian Marine Corps Advisor Room"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -15678,7 +15678,7 @@
 /obj/machinery/button/alternate/door{
 	desc = "A remote control-switch for the office door.";
 	id_tag = "smcsea_foredoor";
-	name = "SMC SEA Office Door Control";
+	name = "SMC Advisor Office Door Control";
 	pixel_x = -6;
 	pixel_y = -25;
 	req_access = list("ACCESS_TORCH_SENIOR_ADVISOR")
@@ -16757,7 +16757,7 @@
 	dir = 5
 	},
 /obj/machinery/camera/network/command{
-	c_tag = "Solarian Marine Corps Attache - Office";
+	c_tag = "Solarian Marine Corps Advisor - Office";
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
