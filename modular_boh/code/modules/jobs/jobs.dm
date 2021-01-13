@@ -306,6 +306,8 @@ var/const/INF               =(1<<11)
 		/datum/mil_rank/marine_corps/o3,
 		/datum/mil_rank/marine_corps/o4
 	)
+	alt_titles = list(
+		"SMC Senior Enlisted Advisor"
 
 //## RESEARCH ROBOTICIST
 
